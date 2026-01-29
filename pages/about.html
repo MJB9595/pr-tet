@@ -1,33 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/about.css"> 
+    
 </head>
+
 <body>
     <header>
         <div class="inner">
             <h1>
-                <a href="index.html">LOGO</a>
+                <a href="../index.html">LOGO</a>
             </h1>
 
             <ul class="nav-list">
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/service.html">service</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
 
-    <section>
-        
+    <section class="sub-hero">
+        <h2 data-aos="fade-up">About Us</h2>
     </section>
 
-    <main>
-        <h2>about page</h2>
-    </main>
+    <section class="about-sec-1">
+        <div class="inner">
+            <div class="about-img" data-aos="fade-right">
+                <img src="../img/1.webp" alt="About Image">
+            </div>
+            <div class="about-txt" data-aos="fade-left">
+                <h3>Creative Web Agency</h3>
+                <p>
+                    우리는 디자인과 기술의 경계를 허무는 웹 에이전시입니다.<br>
+                    기존의 틀을 깨고, 사용자에게 새로운 경험을 제공하는 것을 목표로 합니다.
+                    Figma 디자인을 완벽한 코드로 구현하는 능력을 갖추고 있습니다.
+                </p>
+                <p>
+                    HTML5, CSS3, JavaScript를 기반으로 반응형 웹사이트부터
+                    인터랙티브한 웹 애플리케이션까지 제작합니다.
+                </p>
+                <a href="#" class="btn">View Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-sec-2">
+        <div class="inner">
+            <div class="tit-wrap">
+                <h2 class="tit" style="color:#333;" data-aos="fade-up">Our Core Values</h2>
+                <p class="txt" style="color:#666; margin: 20px auto;" data-aos="fade-up" data-aos-delay="100">
+                    우리가 가장 중요하게 생각하는 세 가지 가치입니다.<br>
+                    마우스를 카드 위에 올려보세요.
+                </p>
+            </div>
+
+            <div class="value-grid">
+                <div class="tilt-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tilt-card">
+                        <div class="card-content">
+                            <span class="tilt-icon">🎨</span>
+                            <h4>Creative</h4>
+                            <p>독창적인 디자인과 아이디어로<br>시각적 즐거움을 선사합니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tilt-wrapper" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tilt-card">
+                        <div class="card-content">
+                            <span class="tilt-icon">💻</span>
+                            <h4>Development</h4>
+                            <p>깔끔하고 유지보수가 용이한<br>코드를 작성합니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tilt-wrapper" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tilt-card">
+                        <div class="card-content">
+                            <span class="tilt-icon">🚀</span>
+                            <h4>Performance</h4>
+                            <p>빠른 로딩 속도와 최적화된<br>성능을 보장합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="inner">
+            <div class="left-wrap">
+                <h5>LOGO</h5>
+                <p>copyright 2026 MJB All right reserved</p>
+            </div>
+            <!-- <div class="sns-wrap">
+                <a href="#" class="sns-icon"><img src="../img/foot-icon-1.png" alt="icon" /></a>
+                <a href="#" class="sns-icon"><img src="../img/foot-icon-2.png" alt="icon" /></a>
+                <a href="#" class="sns-icon"><img src="../img/foot-icon-3.png" alt="icon" /></a>
+            </div> -->
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    
+    <script src="../js/about.js"></script>
 </body>
 </html>
